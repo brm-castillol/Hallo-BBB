@@ -1,0 +1,119 @@
+/*
+-Deben ser elementos por default que lucirán igual en todo el sitio, Es .
+-Ningún estilo de estos elementos selectores deberá usar !important.
+-No usar selectores tipo class o id.
+*/
+.row
+	margin 0
+	padding 0
+	
+.clear
+	clear both	
+	
+ul, ol
+	list-style none
+a
+	text-decoration none
+	border 0
+	
+		
+	img
+		border 0
+		
+html , body
+	overflow-x hidden
+	
+body
+	color $Blanco
+	font-size 1.3em
+	background url('../images/fondos/img-back-home.png')
+	background-size cover
+	
+
+h1, h2, h3
+	font-family $RalewayB
+	color $Negro
+
+p
+	font-family $RalewayL
+	color $Negro
+
+/*CARUSEL*/
+
+#myCarousel
+	margin 20px 0 40px
+
+.antes
+	margin 143px 0 0 -74px
+
+.despues
+	margin 143px 0 0 74px
+
+/*REDES SOCIALES*/
+.contenedor-redes
+	z-index 1
+	
+ul.redes-sociales
+	height 74px
+	margin 0
+	padding 0
+
+ul.redes-sociales li 
+	list-style none
+	float left
+	width 55px
+	height 74px
+	margin-left 6px
+	
+	&:first-child
+		margin 0
+
+.icono-redes
+	width 50px
+	height 51px
+	display inline-block
+
+.icono-facebook
+	background url('../images/iconos-redes/icono-Fb.png')
+	background-repeat no-repeat
+	background-repeat no-repeat
+	transitionBase()
+
+	&:hover, &:active, &:focus
+		background url('../images/iconos-redes/icono-FbII.png')
+
+.icono-twitter
+	background url('../images/iconos-redes/icono-Tw.png')
+	background-repeat no-repeat
+	transitionBase()
+
+	&:hover, &:active, &:focus
+		background url('../images/iconos-redes/icono-TwII.png')
+
+.icono-youtube
+	background url('../images/iconos-redes/icono-Yt.png')
+	background-repeat no-repeat
+	transitionBase()
+
+	&:hover, &:active, &:focus
+		background url('../images/iconos-redes/icono-YtII.png')
+
+.icono-instagram
+	background url('../images/iconos-redes/icono-Ist.png')
+	background-repeat no-repeat
+	transitionBase()
+
+	&:hover, &:active, &:focus
+		background url('../images/iconos-redes/icono-IstII.png')
+		
+.icono-share
+	background url('../images/iconos-redes/icono-Sha.png')
+	background-repeat no-repeat
+	transitionBase()
+
+	&:hover, &:active, &:focus
+		background url('../images/iconos-redes/icono-ShaII.png')
+
+.redes-sabores
+	margin-top 4%
+	
