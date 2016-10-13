@@ -39,7 +39,7 @@ block content
 				div.cont-cajaDS-Der
 					img(src="images/Img-cajaGD2B.png")
 
-	section.cont-info-juego(style="display:-;")
+	section.cont-info-juego(style="display:none;")
 		div.row
 			div.cont-caja-titulos
 				div.cont-titulos-Izq
@@ -78,23 +78,30 @@ block content
 				img.img-responsive(src="images/Img-LogoBBB.png", alt="")
 
 	section(style="display:none;")
-			div
-				div
-					img(src="", alt="")
+		div.cont-titulos-HW
+				h1.titulo-form.
+					 ¡Derrotaste a Drácula! pero esto es sólo el comienzo.
+				em.subtitulo-form.
+					Regístrate para conocer los desafíos que te esperan... 
+		div.cont-fondo-G
+			div.cont-cajaG-Iz
+		
+					img(src="images/Img-cajaG1.png")
 
-				form
-					div
+			div.cont-cajaG-Center
+				form.registro-finalH
+					div.cont-form-registroH
 						h2.
 							Datos Acudiente
 
 						input(type="text",placeholder="Nombres")
-						input(type="text",placeholder="apellidos")
+						input(type="text",placeholder="Apellidos")
 						select
 							option.
 								Tipo de documento
 							option.
 								Tipo de documento
-						input(type="text",placeholder="número Documento")
+						input(type="text",placeholder="Número Documento")
 						select
 							option.
 								Departamento
@@ -107,37 +114,44 @@ block content
 								Ciudad
 						input(type="text",placeholder="Correo Electrónico")
 						input(type="text",placeholder="Número telefonico")
-						input(type="text",placeholder="dirección residencia")
+						input(type="text",placeholder="Dirección residencia")
 
-					div
+					div.division-form-L
+
+					divc.cont-form-registroH
 						h2.
 							Datos participante
 
-						label(for="ConectarconFacebook").
-								Conectar con fACEBBOOK
+						label.face-connect(for="ConectarconFacebook").
+								Conectar con fACEBOOK
 							
-						button
+						button.conect-facebook
+								img.img-responsive(src="images/Img-LogoFb.png", alt="Jugar")
 
 						input(type="text",placeholder="Nombres")
-						input(type="text",placeholder="apellidos")
+						input(type="text",placeholder="Apellidos")
 						input(type="text",placeholder="Correo Electrónico")
 						input(type="text",placeholder="Número telefonico")
 
-						input(type="checkbox")
-						em.
-							 Lorem ipsum dolor sit amet,consectetur adipisicing elit.
+						div
+							input.check-terminos(type="checkbox")
+							p.
+								 acepto los términos y condiciones
+						
+						div.clear
+						div
+							input.check-terminos(type="checkbox")
+							p.
+								 soy menor de edad y cuento con la 
+								autorización de mi representante legal.
 
-						input(type="checkbox")
-						em.
-							 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-
-						input(type="submit", value="enviar")
+						input.btn-enviar-regis(type="submit", value="enviar")
 
 
 
 
-				div
-					img(src="", alt="")
+			div.cont-cajaG-Der
+				img(src="images/Img-cajaG2.png")
 
 	section.cont-cargador(style="display:none;")
 		div.row

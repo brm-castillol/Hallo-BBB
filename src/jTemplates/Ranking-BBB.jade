@@ -7,42 +7,56 @@ block title
 block content
 	section
 		div.cont-titulos-HW
-				h1.
-					 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, deleniti.
-		div
-				div
-					img(src="", alt="")
-				div
-					h2.
+				h1.titulo-ranking.
+					 bien hecho, disfruta del dulce más buscado,
+				em.subtitulo-principal.
+					el delicioso bon bon bum morazulfresh.
+		
+		div.cont-fondo-G
+			div.cont-cajaG-Iz
+					img(src="images/Img-cajaG1.png")
+
+			div.cont-cajaG-Center
+					h2.titulo-posicion-H.
 						tu posición
 
-					em.
-						10000
+					p.text-mi-resultado.
+						69
 
-					table
-						thead
-							tr
-								th.
-									Apodo
-								th.
-									Puntuación
-						tbody
-							tr
-								td.
-									rosamelano
+					div.contenedor-tabla-rank
 
-								td.
-									122220
+						table.posiciones-juegoH
+							thead
+								tr
+									th.titulo-apodos.
+										Apodo
 
-					h2.
-						 Lorem ipsum dolor sit amet, consectetur.
+									th.titulo-puntos.
+										Puntuación
+							tbody
+								-for(x =0; x <16; x++)
+									tr
+										td.
+											rosamelano
+
+										td.
+											12222#{x}
+
+								tr
+										td.mi-apodo.
+											rosamelano
+
+										td.mi-puntaje.
+											12222#{x}
+							
+					h2.titulo-fin-rank.
+						 sigue jugando para acumular más puntos. 
 	
 
 
 
-				div
-					img(src="", alt="")
-
-
+				div.cont-cajaG-Der
+					img(src="images/Img-cajaG2.png")
+				
 
 block Scripts
