@@ -12,6 +12,10 @@ head
 		meta(name="description" content="Meta description Ready" )
 	meta(http-equiv='X-UA-Compatible', content='IE=edge')
 	meta(name='viewport', content='width=device-width, initial-scale=1')
+
+	if titulo === "Mobile"
+		link(rel='stylesheet', href='css/gestos-syn-mobile.css')
+
 	
 	if debug == false
 		link(rel='stylesheet', href='css/bootstrap.min.css')
@@ -35,9 +39,7 @@ head
 body
 
 
-	//-Layout del header (logo, menu, login, etc)
-	if titulo != "Paises"
-		include header.jade
+	
 	
 	
 	//-Contenido de cada page

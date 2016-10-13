@@ -1,55 +1,102 @@
 extends partials/base
 
 block title
-	-var titulo = "Home";
-	title BonBonBum
+	-var titulo = "index";
+	title index
 
 block content
-	div.img-fondo-5.col-lg-5.col-md-5.col-sm-5.col-xs-5.col-lg-offset-6.col-md-offset-5.col-sm-offset-4.col-xs-offset-3
-		img.img-responsive(src='../images/fondos/img-trang-verde.png')
-	div.img-fondo-6
-	div.img-fondo-7.col-lg-4.col-md-5.col-sm-4.col-xs-5.col-lg-offset-0.col-md-offset-0.col-sm-offset-0.col-xs-offset-2
-		img.img-responsive(src='../images/fondos/img-sepen-roja.png')
 
-	section.conte-home
-
-		div#myCarousel.carousel.slide(data-ride="carousel")
-
-			ol.carousel-indicators
-				li.active(data-target="#myCarousel", data-slide-to="0")
-				li(data-target="#myCarousel", data-slide-to="1")
-
-			div.carousel-inner
-				div.item.active
-					img(src='/images/Banners/banner-Morazul.png', style="width:100%;")
-
-				div.item
-					img(src='/images/Banners/banner-ejemplo.png', style="width:100%;")
-
-
-			a.left.carousel-control(href="#myCarousel", data-slide="prev")
-				span
-					img.antes(src='/images/img-flechaP.png')
-			a.right.carousel-control(href="#myCarousel", data-slide="next")
-				span
-					img.despues(src='/images/img-flechaN.png')
-
+	section.cont-bienvenida-H(style="display:none;")
 
 		div.row
-			div.col-lg-4.col-md-5.col-sm-4.col-xs-5.col-lg-offset-0.col-md-offset-0.col-sm-offset-0.col-xs-offset-0.contenedor-redes
-			ul.redes-sociales
-				li
-					a(href="#", alt="", target="_blank").icono-redes.icono-facebook
 
-				li
-					a(href="#", alt="", target="_blank").icono-redes.icono-twitter
+			div.cont-titulos-HW
+				h1.
+					 	Corre ya por tu celular, 
 
-				li
-					a(href="#", alt="", target="_blank").icono-redes.icono-youtube
-				li
-					a(href="#", alt="", target="_blank").icono-redes.icono-instagram
-				li
-					a(href="#", alt="", target="_blank").icono-redes.icono-share
+				em.subtitulo-principal.
+
+					lo necesitarás para jugar y encontrar...
+
+			
+			div.conte-BBB-LogoH
+				img.img-responsive(src="images/Img-BBBLogo.png", alt="")
+
+			div.cont-nombre-hallowen
+				img.img-responsive(src="images/Img-LogoHallow.png", alt="El dulce más buscado")
+
+			div.conte-btn-jugarH
+				a(href="#")
+					img.img-responsive(src="images/Img-PlayH.png", alt="Jugar")
+					p.text-btn-jugar.
+						Jugar
+
+	section.cont-tipo-registro
+
+		div.row
+
+			div.cont-titulos-HW
+				h1.
+					 	Corre ya por tu celular, 
+
+				em.subtitulo-principal.
+
+					lo necesitarás para jugar y encontrar...
+
+			div.cont-fondo-G
+				div.cont-cajaG-Iz
+					img(src="images/Img-cajaG1.png")
+
+				div.cont-cajaG-Center
+					h2.titulo-registro-Prin.
+						 ¿Ya estás registrado?
+
+					div.cont-regis-confirmacion
+						h3.titulo-registrados.si-regis.
+							Si
+
+						form
+							label(for="E-mail").
+								E-mail
+							input.datos-login(type="text")
+							div.clear
+							label(for="Contraseña").
+								Contraseña
+							input.datos-login(type="text")
+
+							div.clear
+
+							em.diferen-registro.
+								ó
+							div.clear
+
+							label.face-connect(for="ConectarconFacebook").
+								Conectar con fACEBOOK
+							
+							button.conect-facebook
+								img.img-responsive(src="images/Img-LogoFb.png", alt="Jugar")
+
+						em.inform-princi.
+							 Ingresa para continuar acumulando bon bon bum y llegar al primer puesto en la tabla de posiciones.
+
+					div.division-form-L
+					div.cont-regis-confirmacion
+						h3.titulo-registrados.no-regis.
+							No
+
+						div.conte-btn-jugar
+							a(href="#")
+								img.img-responsive(src="images/Img-PlayHN.png", alt="Jugar")
+
+								p.text-btn-jugarII.
+									Jugar
+
+						em.inform-princi.
+							 No esperes más y comienza a perseguir el dulce más buscado.
+
+
+				div.cont-cajaG-Der
+					img(src="images/Img-cajaG2.png")
 
 
 
