@@ -24,11 +24,13 @@ a
 		border 0
 		
 body
+	background-image url('/images/Bg-General.jpg')
+	background-size cover
+	background-attachment fixed
 	color $Blanco
 	font-family $Edo
-	font-size 1.3em
-	background-color $Negro
-	
+	font-size 1.3rem
+	overflow hidden
 
 h1, h2, h3
 	font-family $Edo
@@ -49,6 +51,8 @@ section
 .cont-titulos-HW
 	margin 50px auto 0
 	width 46%
+	position relative
+	z-index 1
 	
 	h1
 		margin 0
@@ -68,22 +72,6 @@ em.subtitulo-principal
 em.subtitulo-form
 	font-size 2.3rem
 	text-shadow 2px 2px 2px $Negro
-
-.conte-BBB-LogoH
-	left 35%
-	left calc(50% - 150px)
-	margin 0 auto
-	position absolute
-	top -500px
-	width 30%
-
-.cont-nombre-hallowen
-	left 35%
-	left calc(50% - 200px)
-	margin 0 auto
-	position absolute
-	top -500px
-	width 30%
 
 h2.titulo-registro-Prin
 	color $Negro
@@ -289,8 +277,31 @@ h5.titulos-infor-juego
 
 /*CAGADOR*/
 
+.cont-tips-juego
+	width 600px
+	margin 0 auto
+	text-align center
+	position relative
+	z-index 2
+	
+	h2
+		font-size 4rem
+	
 .cont-logo-Carga
-	width 110px	
-	margin 10% auto 0%	
+	width 300px	
+	margin 42px auto 0%
+	position relative
+	z-index 1
+
+.cont-porcentaje-carga
+	width 50px
+	left calc(50% - 20px)
+	position absolute
+	z-index 2
+	top 300px
+	
+	p
+		color $Blanco
+		font-size 10rem
 
 

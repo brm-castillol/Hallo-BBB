@@ -1,0 +1,93 @@
+.rayo
+	animation rayo 3s infinite
+	animation-timing-function ease
+	position absolute
+	width 600px
+	right 0
+	z-index -3
+
+.rayoJ
+	animation rayo 3s infinite
+	animation-timing-function ease
+	position absolute
+	width 400px
+	right 109px
+	z-index -3
+
+.rayo-A
+	animation rayoA 2s infinite
+	animation-timing-function linear
+	position absolute
+	width 600px
+	left -630px
+	z-index -3
+
+@keyframes rayo
+	0%
+		opacity 0.8
+	25% 
+		opacity 0.3
+	50%	
+		opacity 0.7
+		
+	100%
+		opacity 0
+
+
+@keyframes rayoA
+	0%
+		opacity 0.4
+	25% 
+		opacity 0.3
+	50%	
+		opacity 0.6
+		
+	100%
+		opacity 0
+
+
+.conte-BBB-LogoH
+	left 35%
+	left calc(50% - 150px)
+	position absolute
+	width 30%
+	top 120px
+	animation BBB 2s
+	animation-timing-function ease-out
+
+.cont-nombre-hallowen
+	left 35%
+	left calc(50% - 200px)
+	position absolute
+	width 30%
+	top 350px
+	animation nombre-act 1s
+	animation-timing-function ease-out
+
+@keyframes nombre-act
+	0%
+		top -500px
+	100%
+		top 350px
+
+@keyframes BBB
+	from
+		top -500px
+	to 
+		top 120px
+
+
+.mano-cargador
+	width 489px
+	left calc(50% - 244px)
+	position absolute
+	z-index 1
+	top 0px
+	animation mano 8s
+	animation-timing-function ease-out
+
+@keyframes mano
+	0%
+		top -960px
+	100%
+		top 0px
