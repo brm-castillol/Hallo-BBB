@@ -80,7 +80,7 @@ module.exports = function(grunt) {
 			/*Tarea para compilar stylus, escuchamos solo el archivo base donde se importan todas las librerias*/
 			compile: {
 				files: {
-					'publication/css/style.css': 'src/stylus/main.styl'
+					'publication/css/style.css': 'src/stylus/main.styl',
 				}
 			}
 		},

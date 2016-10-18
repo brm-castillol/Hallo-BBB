@@ -1,0 +1,57 @@
+/*! Sitio-BBB - v0.1.0 - 2016-10-18
+* https://github.com/cortesc/HTML
+* Copyright (c) 2016 Lady Castillo; Licensed MIT */
+body {
+  background-image: url("/images/Bg-Mobile-Defensa.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $Blanco;
+  font-family: $Edo;
+  font-size: 1.3rem;
+  height: 100%;
+  overflow: hidden !important;
+}
+.cont-logoH-PeB {
+  width: 90px;
+  position: absolute;
+  left: 10px;
+  bottom: 4px;
+}
+.cont-logoBBB-PeB {
+  width: 90px;
+  position: absolute;
+  right: 10px;
+  bottom: 4px;
+}
+.cont-Sync-Cen h5.titulos-infor-juego {
+  margin-top: 25%;
+}
+input.codigo-sync {
+  background: none !important;
+  border: 1px dashed $Negro;
+  color: $Negro;
+  text-shadow: 0px 0px 4px $Naranja;
+  float: right;
+  height: 28px;
+  margin-top: 10%;
+  padding: 25px 6px;
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+}
+.cont-instrc-CenHB2 h5 {
+  font-size: 1.8rem;
+}
+.btn-iniciarJ {
+  background: none;
+  border: none;
+  position: absolute;
+  z-index: 1;
+  left: calc(50% - 135px);
+  top: 50%;
+  width: 300px;
+}
+.cont-btn-CenHB2 h5 {
+  margin-top: 25%;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsdXMvbW9kdWxlcy9nZXN0b3Mtc3luLW1vYmlsZS5zdHlsIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Msa0JBQW9ELHFDQUFwRDtFQUNBLG1CQUFrQixVQUFsQjtFQUNBLGlCQUFnQixNQUFoQjtFQUNBLE9BQU0sUUFBTjtFQUNBLGFBQVksS0FBWjtFQUNBLFdBQVUsT0FBVjtFQUNBLFFBQU8sS0FBUDtFQUNBLFVBQVMsa0JBQVQ7O0FBRUQ7RUFDQyxPQUFNLEtBQU47RUFDQSxVQUFTLFNBQVQ7RUFDQSxNQUFLLEtBQUw7RUFDQSxRQUFPLElBQVA7O0FBRUQ7RUFDQyxPQUFNLEtBQU47RUFDQSxVQUFTLFNBQVQ7RUFDQSxPQUFNLEtBQU47RUFDQSxRQUFPLElBQVA7O0FBSUE7RUFDQyxZQUFXLElBQVg7O0FBRUY7RUFDQyxZQUFXLGdCQUFYO0VBQ0EsUUFBTyxrQkFBUDtFQUNBLE9BQU0sT0FBTjtFQUNBLGFBQVkscUJBQVo7RUFDQSxPQUFNLE1BQU47RUFDQSxRQUFPLEtBQVA7RUFDQSxZQUFXLElBQVg7RUFDQSxTQUFRLFNBQVI7RUFDQSxPQUFNLEtBQU47RUFDQSxXQUFVLEtBQVY7RUFDQSxZQUFXLE9BQVg7O0FBR0E7RUFDQyxXQUFVLE9BQVY7O0FBRUY7RUFDQyxZQUFXLEtBQVg7RUFDQSxRQUFPLEtBQVA7RUFDQSxVQUFTLFNBQVQ7RUFDQSxTQUFRLEVBQVI7RUFDQSxNQUFxQixrQkFBckI7RUFDQSxLQUFJLElBQUo7RUFDQSxPQUFNLE1BQU47O0FBSUE7RUFDQyxZQUFXLElBQVgiLCJmaWxlIjoiZ2VzdG9zLXN5bi1tb2JpbGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keVxuXHRiYWNrZ3JvdW5kLWltYWdlIHVybCgnL2ltYWdlcy9CZy1Nb2JpbGUtRGVmZW5zYS5qcGcnKVxuXHRiYWNrZ3JvdW5kLXJlcGVhdCBuby1yZXBlYXRcblx0YmFja2dyb3VuZC1zaXplIGNvdmVyXG5cdGNvbG9yICRCbGFuY29cblx0Zm9udC1mYW1pbHkgJEVkb1xuXHRmb250LXNpemUgMS4zcmVtXG5cdGhlaWdodCAxMDAlXG5cdG92ZXJmbG93IGhpZGRlbiAhaW1wb3J0YW50XG5cdFxuLmNvbnQtbG9nb0gtUGVCXG5cdHdpZHRoIDkwcHhcblx0cG9zaXRpb24gYWJzb2x1dGVcblx0bGVmdCAxMHB4XG5cdGJvdHRvbSA0cHhcblxuLmNvbnQtbG9nb0JCQi1QZUJcblx0d2lkdGggOTBweFxuXHRwb3NpdGlvbiBhYnNvbHV0ZVxuXHRyaWdodCAxMHB4XG5cdGJvdHRvbSA0cHhcblxuLmNvbnQtU3luYy1DZW5cblxuXHRoNS50aXR1bG9zLWluZm9yLWp1ZWdvXG5cdFx0bWFyZ2luLXRvcCAyNSVcblx0XG5pbnB1dC5jb2RpZ28tc3luY1xuXHRiYWNrZ3JvdW5kIG5vbmUgIWltcG9ydGFudFxuXHRib3JkZXIgMXB4IGRhc2hlZCAkTmVncm9cblx0Y29sb3IgJE5lZ3JvXG5cdHRleHQtc2hhZG93IDBweCAwcHggNHB4ICROYXJhbmphXG5cdGZsb2F0IHJpZ2h0XG5cdGhlaWdodCAyOHB4XG5cdG1hcmdpbi10b3AgMTAlXG5cdHBhZGRpbmcgMjVweCA2cHhcblx0d2lkdGggMTAwJVxuXHRmb250LXNpemUgM3JlbVxuXHR0ZXh0LWFsaWduIGNlbnRlclxuXG4uY29udC1pbnN0cmMtQ2VuSEIyXG5cdGg1XG5cdFx0Zm9udC1zaXplIDEuOHJlbVxuXG4uYnRuLWluaWNpYXJKXG5cdGJhY2tncm91bmQgbm9uZVxuXHRib3JkZXIgbm9uZVxuXHRwb3NpdGlvbiBhYnNvbHV0ZVxuXHR6LWluZGV4IDFcblx0bGVmdCBjYWxjKDUwJSAtIDEzNXB4KVxuXHR0b3AgNTAlXG5cdHdpZHRoIDMwMHB4XG5cbi5jb250LWJ0bi1DZW5IQjJcblx0XG5cdGg1XG5cdFx0bWFyZ2luLXRvcCAyNSUiXX0= */
