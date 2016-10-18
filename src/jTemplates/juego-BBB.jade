@@ -13,8 +13,11 @@ block content
 		img(src="images/Img-RayoA.png")
 
 
-	section.cont-sync-actividad(style="display:none;")
-		div.row
+	section.cont-sync-actividad(style="display:none-;")
+		div.cont-titulos-svg
+
+				include partials/Sync-text.jade
+		div.row.margindiv
 			div.cont-cajaD
 				div.cont-cajaDS-Iz
 					img(src="images/Img-cajaGD1.png")
@@ -36,7 +39,7 @@ block content
 
 				div.cont-cajaDS2-Center
 					div
-					h3.pasos-int-sync.
+					h3.pasos-int-syncII.
 						2. ingresa este código.
 
 					div.cont-codigo-sync
@@ -46,7 +49,8 @@ block content
 				div.cont-cajaDS-Der
 					img(src="images/Img-cajaGD2B.png")
 
-	section.cont-info-juego(style="display:none-;")
+
+	section.cont-info-camino(style="display:none;")
 		div.row
 			div.cont-caja-titulos
 				div.cont-titulos-Izq
@@ -91,11 +95,98 @@ block content
 			div.cont-sprite-gestos.
 				sprite
 
-			div.cont-logoH-Pe
-				img.img-responsive(src="images/Img-LogoHallowBBB.png", alt="")
+	section.cont-info-puerta(style="display:none;")
+		div.row
+			div.cont-caja-titulos
+				div.cont-titulos-Izq
+					img(src="images/Img-cajaP1.png")
 
-			div.cont-logoBBB-Pe
-				img.img-responsive(src="images/Img-LogoBBB.png", alt="")
+				div.cont-titulos-Center
+					h4.titulos-infor-juego.
+						Llegaste a la primera puerta, ábrela usando tu movil
+
+				div.cont-titulos-Der
+					img(src="images/Img-cajaP2.png")
+			div.clear
+
+			
+			div.cont-barra-progreso.container
+				div.progress.vertical
+					div.progress-bar.progress-bar-info(role="progressbar",aria-valuenow="90",aria-valuemin="0",aria-valuemax="100",style="width: 40%;")
+
+			div.contador-BBB-totales
+				div
+					img.img-responsive(src="images/Img-BBBContador.png", alt="")
+				
+				div.cont-text-contador
+					p.cont-BBBH.
+						0
+
+
+			div.clear
+			div.caja-instr-juegoH
+				div.cont-instrc-Izq
+					img(src="images/Img-cajaP1B.png")
+
+				div.cont-instrc-Cen
+					h5.titulos-infor-juego.
+
+							Tienes 15 segundos<br> ¿estás listo?
+
+				div.cont-instrc-Der
+					img(src="images/Img-cajaP2B.png")
+
+
+			div.cont-sprite-gestos.
+				sprite
+
+	section.cont-info-dracula(style="display:none;")
+		div.cont-titulos-svgII
+
+				include partials/Dracula.jade
+		div.row
+			div.cont-caja-titulos
+				div.cont-titulos-Izq
+					img(src="images/Img-cajaP1.png")
+
+				div.cont-titulos-Center
+					h4.titulos-infor-juego.
+						Lanzale ajos para destrurlo y quitale todos sus bon bon bum!
+
+				div.cont-titulos-Der
+					img(src="images/Img-cajaP2.png")
+			div.clear
+
+			
+			div.cont-barra-progreso.container
+				div.progress.vertical
+					div.progress-bar.progress-bar-info(role="progressbar",aria-valuenow="90",aria-valuemin="0",aria-valuemax="100",style="width: 40%;")
+
+			div.contador-BBB-totales
+				div
+					img.img-responsive(src="images/Img-BBBContador.png", alt="")
+				
+				div.cont-text-contador
+					p.cont-BBBH.
+						0
+
+
+			div.clear
+			div.caja-instr-juegoH
+				div.cont-instrc-Izq
+					img(src="images/Img-cajaP1B.png")
+
+				div.cont-instrc-Cen
+					h5.titulos-infor-juego.
+
+							Tienes 15 segundos<br> ¿estás listo?
+
+				div.cont-instrc-Der
+					img(src="images/Img-cajaP2B.png")
+
+
+			div.cont-sprite-gestos.
+				sprite
 
 	section.cont-formulario-registro(style="display:none;")
 		div.cont-titulos-HW
@@ -173,6 +264,102 @@ block content
 			div.cont-cajaG-Der
 				img(src="images/Img-cajaG2.png")
 
+	section.cont-info-bruja(style="display:none;")
+		div.cont-titulos-svgII
+
+				include partials/Bruja.jade
+		div.row
+			div.cont-caja-titulos
+				div.cont-titulos-Izq
+					img(src="images/Img-cajaP1.png")
+
+				div.cont-titulos-Center
+					h4.titulos-infor-juego.
+						Usa la escoba y liempia el mal que hay en su interior y quitale sus dulces.
+
+				div.cont-titulos-Der
+					img(src="images/Img-cajaP2.png")
+			div.clear
+
+			
+			div.cont-barra-progreso.container
+				div.progress.vertical
+					div.progress-bar.progress-bar-info(role="progressbar",aria-valuenow="90",aria-valuemin="0",aria-valuemax="100",style="width: 40%;")
+
+			div.contador-BBB-totales
+				div
+					img.img-responsive(src="images/Img-BBBContador.png", alt="")
+				
+				div.cont-text-contador
+					p.cont-BBBH.
+						0
+
+
+			div.clear
+			div.caja-instr-juegoH
+				div.cont-instrc-Izq
+					img(src="images/Img-cajaP1B.png")
+
+				div.cont-instrc-Cen
+					h5.titulos-infor-juego.
+
+							Tienes 15 segundos<br> ¿estás listo?
+
+				div.cont-instrc-Der
+					img(src="images/Img-cajaP2B.png")
+
+
+			div.cont-sprite-gestos.
+				sprite
+
+	section.cont-info-(style="display:none;")
+		div.cont-titulos-svgII
+
+				include partials/fantasma.jade
+		div.row
+			div.cont-caja-titulos
+				div.cont-titulos-Izq
+					img(src="images/Img-cajaP1.png")
+
+				div.cont-titulos-Center
+					h4.titulos-infor-juego.
+						sacude tu celular, no te quedes paralizado. haz que tire todos los duces que tenga.
+
+				div.cont-titulos-Der
+					img(src="images/Img-cajaP2.png")
+			div.clear
+
+			
+			div.cont-barra-progreso.container
+				div.progress.vertical
+					div.progress-bar.progress-bar-info(role="progressbar",aria-valuenow="90",aria-valuemin="0",aria-valuemax="100",style="width: 40%;")
+
+			div.contador-BBB-totales
+				div
+					img.img-responsive(src="images/Img-BBBContador.png", alt="")
+				
+				div.cont-text-contador
+					p.cont-BBBH.
+						0
+
+
+			div.clear
+			div.caja-instr-juegoH
+				div.cont-instrc-Izq
+					img(src="images/Img-cajaP1B.png")
+
+				div.cont-instrc-Cen
+					h5.titulos-infor-juego.
+
+							Tienes 15 segundos<br> ¿estás listo?
+
+				div.cont-instrc-Der
+					img(src="images/Img-cajaP2B.png")
+
+
+			div.cont-sprite-gestos.
+				sprite
+
 	section.cont-cargador(style="display:none;")
 		div.row
 
@@ -189,6 +376,12 @@ block content
 			div.cont-porcentaje-carga
 				h3.
 					100 
+
+	div.cont-logoH-Pe
+				img.img-responsive(src="images/Img-LogoHallowBBB.png", alt="")
+
+	div.cont-logoBBB-Pe
+				img.img-responsive(src="images/Img-LogoBBB.png", alt="")
 
 
 
