@@ -67,7 +67,8 @@ module.exports = function(grunt) {
 		stylus: {
 			map:{
 			  files: {
-					'publication/css/style.css': 'src/stylus/main.styl'
+					'publication/css/style.css': 'src/stylus/main.styl',
+					'publication/css/gestos-syn-mobile.css': 'src/stylus/modules/gestos-syn-mobile.styl',
 				}
 			},
 			options:{

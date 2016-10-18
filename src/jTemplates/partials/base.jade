@@ -13,12 +13,15 @@ head
 	meta(http-equiv='X-UA-Compatible', content='IE=edge')
 	meta(name='viewport', content='width=device-width, initial-scale=1')
 
-	if titulo === "Mobile"
-		link(rel='stylesheet', href='css/gestos-syn-mobile.css')
+
 			
 	if debug == false
 		link(rel='stylesheet', href='css/bootstrap.min.css')
-		link(rel='stylesheet', href='css/style.css')
+		if titulo === "Mobile"
+			link(rel='stylesheet', href='css/style.css')
+			link(rel='stylesheet', href='css/gestos-syn-mobile.css')
+		else
+			link(rel='stylesheet', href='css/style.css')
 
 	else
 		//-El nombre del archivo se debe reemplazar por el atributo name del package.json
